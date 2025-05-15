@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Mi primer proyecto React</h1>
+      <h1>MI ULTIMO PROYECTO</h1>
       <p>Contador: {contador}</p>
       <button onClick={() => setContador(contador + 1)}>Sumar 1</button>
     </div>
