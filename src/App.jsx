@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>MI ULTIMO PROYECTO</h1>
-      <p>Contador: {contador}</p>
+      <h1>MI PEPA PROYECTO</h1>
+      <p>Contadorcito: {contador}</p>
       <button className="mi-boton" onClick={() => setContador(contador + 1)}>Sumar 1</button>
     </div>
   )
