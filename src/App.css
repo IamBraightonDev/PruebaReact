@@ -1,13 +1,16 @@
-.App {
-  text-align: center !important;
-  margin-top: 50px !important;
-  font-family: Arial, sans-serif !important;
+body .App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
 }
 
-.App button {
+.mi-boton {
+  background-color: green;
+  color: white;
   padding: 10px 20px;
   font-size: 16px;
   margin-top: 10px;
-  background-color: green;
-  border-radius: 4px;
+  border-radius: 0; /* Si quieres quitar lo global */
+  border: none;
+  cursor: pointer; /* O el estilo que prefieras */
 }

@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h1>MI ULTIMO PROYECTO</h1>
       <p>Contador: {contador}</p>
-      <button onClick={() => setContador(contador + 1)}>Sumar 1</button>
+      <button className="mi-boton" onClick={() => setContador(contador + 1)}>Sumar 1</button>
     </div>
   )
 }
