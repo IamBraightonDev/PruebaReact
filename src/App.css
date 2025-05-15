@@ -1,12 +1,13 @@
 .App {
-  text-align: center;
-  margin-top: 50px;
-  font-family: Arial, sans-serif;
+  text-align: center !important;
+  margin-top: 50px !important;
+  font-family: Arial, sans-serif !important;
 }
 
-button {
+.App button {
   padding: 10px 20px;
   font-size: 16px;
   margin-top: 10px;
   background-color: green;
+  border-radius: 4px;
 }
